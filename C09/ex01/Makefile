@@ -16,6 +16,7 @@ all: libft.a
 
 clean:
     rm -f ${OBJ}
+    
 fclean: clean
     rm -f libft.a
 
