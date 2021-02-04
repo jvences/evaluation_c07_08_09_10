@@ -1,0 +1,11 @@
+
+
+
+
+.c.o:
+	${CC} ${CFLAGS} ${SRCS} -c -Iincludes
+
+
+${NAME}: ${OBJS}
+	${CLIB} ${NAME} ${OBJS}
+	${RLIB} ${NAME}
