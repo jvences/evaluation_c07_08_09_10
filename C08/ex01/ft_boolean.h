@@ -1,6 +1,7 @@
-#ifndef FT_BOOLEAN.H
-#define FT_BOOLEAN.H
+#ifndef FT_BOOLEAN_H
+#define FT_BOOLEAN_H
 
+#include <unistd.h>
 typedef int t_bool;
 
 #define EVEN(n) n % 2 == 0
