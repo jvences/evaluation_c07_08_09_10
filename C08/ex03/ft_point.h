@@ -1,5 +1,5 @@
-#ifndef FT_POINT.H
-#define FT_POINT.H
+#ifndef FT_POINT_H
+#define FT_POINT_H
 
 typedef struct s_point
 {
