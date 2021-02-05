@@ -14,12 +14,18 @@ void    ft_printstr (char *str)
 
 void    ft_printd (int n)
 {
-    char p;
+    char i;
     
     if (n > 9)
-        ft_printd (n / 10);
-    p = n + 48;
-    write (1, &p, 1);
+	{
+		ft_printd (n / 10);
+		ft_printd (n % 10);
+	}
+	else
+	{
+		i = n + 48;
+		write (1, &i, 1);
+	}
 }
 
 void    ft_show_tab(struct s_stock_str *par)
